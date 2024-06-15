@@ -57,6 +57,6 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues para suge
 
 ## Autor
 
-Seu Nome - [Seu LinkedIn](https://www.linkedin.com/in/victorcallegarir/)
+Victor Callegari - [LinkedIn](https://www.linkedin.com/in/victorcallegarir/)
 
 ---
