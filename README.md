@@ -1,30 +1,62 @@
-# React + TypeScript + Vite
+# Cadastro de CPF e CNPJ - Aplicação React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é uma aplicação web desenvolvida em React para realizar o cadastro de usuários com CPF e, em breve, CNPJ. É meu primeiro projeto desenvolvido de forma independente, sem seguir videoaulas, e estou empolgado para continuar melhorando e concluí-lo.
 
-Currently, two official plugins are available:
+## Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Página Inicial**: Apresenta uma interface simples onde o usuário pode escolher entre cadastrar CPF ou CNPJ.
+- **Formulário de Cadastro de CPF**: Validado com `react-hook-form` e `zod`, garantindo que os dados inseridos sejam precisos e formatados corretamente.
+- **Busca de CEP**: Utiliza a API ViaCEP para preencher automaticamente os campos de endereço a partir do CEP informado.
+- **Modal de Confirmação**: Implementada para confirmar o cancelamento do cadastro, proporcionando uma experiência mais intuitiva ao usuário.
 
-## Expanding the ESLint configuration
+## Próximos Passos
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Adicionar funcionalidade para cadastro de CNPJ.
+- Refatorar o código utilizando Context API do React para gerenciamento de estado global.
+- Otimizar o desempenho com `useCallback` para memoização de funções.
 
-- Configure the top-level `parserOptions` property like this:
+## Como Rodar o Projeto
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+1. Clone o repositório:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+git clone https://github.com/seu-usuario/nome-do-repositorio.git
+
+csharp
+Copiar código
+
+2. Instale as dependências:
+
+cd nome-do-repositorio
+npm install
+
+css
+Copiar código
+
+3. Execute a aplicação:
+
+npm start
+
+markdown
+Copiar código
+
+A aplicação estará disponível em `http://localhost:3000`.
+
+## Tecnologias Utilizadas
+
+- React
+- React Router DOM
+- React Hook Form
+- Zod (para validação de esquema)
+- Context API (a ser implementado)
+- HTML5, CSS3 (com Tailwind CSS)
+- JavaScript (ES6+)
+
+## Contribuição
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues para sugestões ou problemas encontrados.
+
+## Autor
+
+Seu Nome - [Seu LinkedIn](https://www.linkedin.com/in/victorcallegarir/)
+
+---
