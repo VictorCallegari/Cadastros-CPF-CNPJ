@@ -13,10 +13,10 @@ export function Header() {
         </header>
         <div className="mt-15">
           <p className="md:text-7xl text-3xl font-bold">
-            Seja Bem-vindo ao Cadastro MULTIAVE!
+            Seja Bem-vindo ao Cadastro!
           </p>
           <p className="text-gray-500 my-4 text-xl">
-            Ajudando o agro a alimentar o mundo.
+            Lorem ipsum dolor sit amet consectetur.
           </p>
         </div>
       </Container>

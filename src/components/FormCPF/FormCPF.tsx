@@ -136,7 +136,7 @@ export function FormCPF() {
       {/* Formulario de Cadastro */}
       <form
         onSubmit={handleSubmit(onSubmit)}
-        className="flex flex-col gap-4 w-full max-w-xs"
+        className="flex flex-col gap-4 w-full max-w-xs text-black"
       >
         <div className="flex flex-col gap-3">
           <label htmlFor="name">NOME COMPLETO: </label>
